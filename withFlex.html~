@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header><h1>Repetindo: Praticando conceitos de CSS Flexbox...</h1></header>
+<h1>Display block;</h1>
+<section class="container">
+<div class="item">ITEM1</div>
+<div class="item">ITEM2</div>
+<div class="item">ITEM3</div>
+<div class="item">ITEM4</div>
+</section>
+<h1>Display flex row sem wrap</h1>
+<section class="container flex">
+<div class="item flex">ITEM1</div>
+<div class="item">ITEM2</div>
+<div class="item">ITEM3</div>
+<div class="item">ITEM4</div>
+</section>
+<h1>Display flex row com wrap</h1>
+<section class="container flex flex-wrap">
+<div class="item">ITEM1</div>
+<div class="item">ITEM2</div>
+<div class="item">ITEM3</div>
+<div class="item">ITEM4</div>
+</section>
+<p class="container">Usando flex-direction para definir a direção dos elementos filhos.
+Muito útil no desenvolvimento mobile. Pois definimos as colunas dos itens.
+Garantindo que aqueles estarão numa determindada coluna.</p>
+<h1>Flex-direction:</h1>
+<section class="container flex flex-wrap">
+<div class="item">ITEM1</div>
+<div class="item">ITEM2</div>
+<div class="item">ITEM3</div>
+<div class="item">ITEM4</div>
+</section>
+</body>
+</html>

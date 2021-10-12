@@ -1,0 +1,24 @@
+.order1{
+	order: 1;
+}
+.order2{
+	order: 2;
+}
+.order3{
+	order: 3;
+}
+.order4{
+	order: 4;
+}
+.container{
+	max-width: 600px;
+	display: flex;
+	margin: 0 auto;
+	background-color: purple;
+}
+.item{
+	margin: 2px;
+	background: green;
+	text-align: center;
+	font-size: 1.4em;
+}

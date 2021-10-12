@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<link rel="stylesheet" href="./css/w3.css">
+<link href="./css/self.css" rel="stylesheet" type="text/css">
+<link href="./css/column.css" rel="stylesheet" type="text/css">
+<link href="./css/row.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="w3-bar w3-black">
+<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
+<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
+<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
+<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
+<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
+<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
+<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+</div>
+<p class="container">
+<h1>Agora vamos aos align-self...</h1>
+<p>
+Por que usar align-self?<br>
+Quando precisamos definir o alinhamento de um único item,<br>
+que esteja em um container que já tenha outa predefinição.<br>
+Essa possibilidade de alterar pode ser feita em linha ou coluna.
+</p>
+<h1>PROPRIEDADE ALIGN-SELF AUTO: auto se submete ao já definido no container.</h1>
+<ul class="container stretch">
+<li class="item">A</li>
+<li class="item">B</li>
+<li class="item">C</li>
+<li class="item">D</li>
+<li class="item">E</li>
+<li class="item">F</li>
+<li class="item">G</li>
+<li class="item">H</li>
+<li class="item">I</li>
+<li class="item">J</li>
+<li class="item">L</li>
+<li class="item">M</li>
+</ul>
+<h1>PROPRIEDADE ALIGN-SELF MULTIPLOS: Alinha o item ao início.</h1>
+<p>
+Definições sequencialmente:<br>
+center, end, baseline, start, center.
+</p>
+<div class="container row">
+<div class="column center">
+<div class="item">A</div>
+</div>
+<div class="column end">
+<div class="item">B</div>
+<div class="item">C</div>
+<div class="item">D</div>
+</div>
+<div class="column baseline">
+<div class="item">E</div>
+<div class="item">F</div>
+<div class="item">G</div>
+<div class="item">H</div>
+</div>
+<div class="column start">
+<div class="item">I</div>
+<div class="item">J</div>
+<div class="item">L</div>
+</div>
+<div class="column center">
+<div class="item">M</div>
+<div class="item">N</div>
+</div>
+</div>
+<p>Bom se você seguiu o roteiro até aqui... Provavelmente deve ter percebido que essa viagem não chegou ao fim da linha.</p>
+</body>
+</html>

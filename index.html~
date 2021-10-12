@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<link rel="stylesheet" href="./css/w3.css">
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+<link href="./css/column.css" rel="stylesheet" type="text/css">
+<link href="./css/grow.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="w3-bar w3-black">
+<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
+<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
+<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
+<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
+<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
+<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
+<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+</div>
+<h1>Conceitos do flexbox:</h1>
+<h2>Praticando conceitos desenvolvidos a partir do curso da Digital Inovation One. E pesquisas no site da Alura e Mozilla MDN.</h2>
+<h1>LINKS</h1>
+
+<p class="conatiner">Os arquivos css foram divididos, de forma que seja mais fácil usar, conforme a necessidade:<br>
+column, column-reverse; chame: column.css<br>
+row, row-reverse; chame: row.css<br>
+justify...; chame: justify.css<br>
+wrap; chame: flex-direction.css<br>
+</p>
+</body>
+</html>

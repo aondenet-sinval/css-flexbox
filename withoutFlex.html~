@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+</head>
+<style type="text/css">
+</style>
+<body>
+<h1>Conceitos do flexbox:</h1>
+<h2>Praticando conceitos desenvolvidos a partir do curso da Digital Inovation One. E pesquisas no site da Alura e Mozilla MDN.</h2>
+<p>Eixo principal: row, row-reverse, column, column-reverse. <a href="eixoprincipal.html">CLIQUE AQUI</a>.</p>
+</body>
+</html>

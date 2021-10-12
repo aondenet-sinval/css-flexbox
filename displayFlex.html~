@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<link rel="stylesheet" href="./css/w3.css">
+<link href="./css/displayflex.css" rel="stylesheet" type="text/css">
+<link href="./css/.css" rel="stylesheet" type="text/css">
+<link href="./css/row.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="w3-bar w3-black">
+<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
+<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
+<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
+<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
+<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
+<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
+<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+</div>
+<h1>Display block;</h1>
+<section class="container">
+<div class="item">ITEM1 ITEM1 ITEM1</div>
+<div class="item">ITEM2</div>
+<div class="item">ITEM3</div>
+<div class="item">ITEM4</div>
+</section>
+<h1>Display flex row sem wrap</h1>
+<section class="container row">
+<div class="item flex">ITEM1</div>
+<div class="item">ITEM2</div>
+<div class="item">ITEM3</div>
+<div class="item">ITEM4</div>
+</section>
+<h1>Display flex row com wrap</h1>
+<section class="container wrap">
+<div class="item">ITEM1 ITEM1 ITEM1 ITEM1</div>
+<div class="item">ITEM2</div>
+<div class="item">ITEM3</div>
+<div class="item">ITEM4</div>
+</section>
+</body>
+</html>

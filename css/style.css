@@ -1,0 +1,30 @@
+.container{
+	display: flex;/*Definindo aqui não precisa chamar a classe flex no html*/
+	max-width: 800px;
+	background-color: #7F7F7F; 
+	margin: 3px;
+	font-family: verdana;
+	color: white;
+	border: solid black 1px;
+	border-radius: 8px;
+}
+.wrap{
+	flex-wrap: wrap;
+}
+.item{
+	flex: 1;/*Valor 1 expande o conteudo da class item*/
+	background-color: green;
+	margin: 3px;
+	padding: 3px;
+	font-size: 1.1em;
+	text-align: center;
+	max-width: 450px;
+	border-radius: 8px;
+	align-items: center;
+}
+body{
+	background-color: #3E2525;
+	font-weight: bold;
+}
+
+

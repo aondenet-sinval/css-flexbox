@@ -1,0 +1,34 @@
+/*Se os conteúdos a ser tratados com justify possuírem o flex:1, modifique se não as propriedades 
+dessa folha não serão aplicadas. Visto que não se pode tratar elementos expandidos.
+O flex definido como 1 expande os elementos.*/
+.just-flex-start{
+	justify-content: flex-start;
+}
+.just-flex-end{
+	justify-content: flex-end;
+}
+.just-center{
+	justify-content: center;
+}
+.just-space-between{
+	justify-content: space-between;
+}
+.just-space-around{
+	justify-content: space-around;
+}
+/*
+Propriedades justify-content: 
+.......
+flex-start: alinha os itens ao início do container;
+.......
+flex-end: alinha os itens ao final do container;
+.......
+center: centraliza os itens do container;
+.......
+space-between: cria um espaçamento igual entre os elementos, mas mantém 
+o primeiro grudado no início e o último no final.
+.......
+space-around: cria um espaçamento entre os elementos, mas
+ os espaçamentos do meio são o dobro do inicial e do final.
+.......
+*/

@@ -1,0 +1,24 @@
+.flex{
+	display: flex;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+.container{
+	width: 400px;
+	background-color: blue; 
+	margin: 3px;
+	font-family: verdana serif;
+	color: white;
+}
+.item{
+	background-color: green;
+	margin: 3px;
+	padding: 3px;
+	font-size: 2em;
+}
+body{
+	background-color: #3E2525;
+}
+

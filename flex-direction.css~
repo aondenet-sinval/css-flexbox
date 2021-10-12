@@ -1,0 +1,36 @@
+/*Agora vamos fazer as definições do flex-direction. Beleza? */
+.flex{
+	display: flex;
+}
+.row{
+	flex-direction: row;
+}
+.row-reverse{
+	flex-direction: row-reverse
+}
+.column{
+	flex-direction: column;
+}
+.column-reverse{
+	flex-direction: column-reverse;
+}
+p{
+	margin: 3px;
+}
+.container{
+	max-width: 600px;
+	background-color: #7F7F7F; 
+	margin: 3px;
+	font-family: verdana serif;
+	color: white;
+}
+.item{
+	background-color: green;
+	margin: 3px;
+	padding: 3px;
+	font-size: 2em;
+}
+body{
+	background-color: #3E2525;
+	font-weight: bold;
+}

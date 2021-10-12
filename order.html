@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<link rel="stylesheet" href="./css/w3.css">
+<link href="./css/order.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="w3-bar w3-black">
+<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
+<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
+<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
+<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
+<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
+<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
+<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+</div>
+<p class="container">
+Vamos conversar... Para ficarmos interessados precisamos entender o que o order pode fazer por nós. Beleza?<br>
+Ele pode:<br>
+Ajuda-nos a ordenar os elementos.<br>
+Exemplos:<br>
+Se você definir itens com order: 1; order: 4; order: 3 e order: 2.<br>
+Estará garantindo assim a prioridade na ordenação.
+</p>
+<h1>Vejamos na prática abaixo, numa section com quatro colunas.</h1>
+<p>Se você definir order4, order3, order2, order1, sendo esses os valores definidos, você garantiu.<br>
+O item order1, mesmo sendo escrito por último assumirá a prioridade  em relação aos demais Beleza?</p>
+<section class="container">
+<div class="item order4">ORDER 1</div>
+<div class="item order3">ORDER 3</div>
+<div class="item order2">ORDER 2</div>
+<div class="item order1">ORDER 4</div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<link rel="stylesheet" href="./css/w3.css">
+<link href="./css/align-items.css" rel="stylesheet" type="text/css">
+<link href="./css/column.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="w3-bar w3-black">
+<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
+<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
+<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
+<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
+<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
+<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
+<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+</div>
+<h1>Usando align-items</h1>
+<p>
+Razão do uso:<br>
+Essa propriedade ajuda a linhar os itens, no centro, em relação ao eixo vertical.</p>
+<h1>PROPRIEDADE STRETCH: itens crescem igualmente.</h1>
+<ul class="container stretch">
+<li class="item">A</li>
+<li class="item">B</li>
+<li class="item">C</li>
+<li class="item">D</li>
+<li class="item">E</li>
+<li class="item">F</li>
+<li class="item">G</li>
+<li class="item">H</li>
+<li class="item">I</li>
+<li class="item">J</li>
+<li class="item">L</li>
+<li class="item">M</li>
+</ul>
+<h1>PROPRIEDADE START: alinha tudo ao início/top.</h1>
+<ul class="container start">
+<li class="item">A</li>
+<li class="item">B</li>
+<li class="item">C</li>
+<li class="item">D</li>
+<li class="item">E</li>
+<li class="item">F</li>
+<li class="item">G</li>
+</ul>
+<h1>PROPRIEDADE END: alinha tudo ao final/bottom.</h1>
+<ul class="container end">
+<li class="item">A</li>
+<li class="item">B</li>
+<li class="item">C</li>
+<li class="item">D</li>
+<li class="item">E</li>
+<li class="item">F</li>
+<li class="item">G</li>
+<li class="item">H</li>
+<li class="item">I</li>
+</ul>
+<h1>PROPRIEDADE BASELINE: alinha de acordo com a linha base.</h1>
+<p>LINHA BASE AQUI. COLUNA.</p>
+<ul class="container column baseline">
+<li class="item">A B C</li>
+<li class="item">D</li>
+<li class="item">E F G H I</li>
+<li class="item">J</li>
+<li class="item">L</li>
+<li class="item">M</li>
+</ul>
+</body>
+</html>

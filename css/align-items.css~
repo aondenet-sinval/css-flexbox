@@ -1,0 +1,59 @@
+/*Veja nota no fim da folha:*/
+.stretch{
+	align-items: stretch;
+}
+.start{
+	align-items: flex-start;
+}
+.end{
+	align-items: flex-end;
+}
+.center{
+	align-items: center;
+}
+.baseline{
+	align-items: baseline;
+}
+.container{
+	display: flex;/*Definindo aqui não precisa chamar a classe flex no html*/
+	max-width: 400px;
+	background-color: #7F7F7F; 
+	margin: 3px;
+	font-family: verdana;
+	color: white;
+	border: solid black 1px;
+	border-radius: 8px;
+	list-style: none;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+.item{
+	
+	background-color: green;
+	margin: 10px;
+	padding: 3px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 4px;
+	align-items: center;
+}
+body{
+	background-color: #3E2525;
+	font-weight: bold;
+}
+
+/*
+Propriedades align-items:
+....
+stretch: valor padrão que faz os items crescerem igualmente;
+....
+flex-start:  alinha ao início;
+....
+flex-end: alinha ao final;
+....
+center: alinha ao centro;
+....
+baseline: alinha de acordo com a base da
+....
+*/

@@ -1,0 +1,51 @@
+/*Agora vamos fazer as definições do align-content. Beleza? */
+.stretch{
+	-webkit-align-content: stretch; 
+	align-content: stretch;
+}
+.start{
+	align-content: flex-start;
+}
+.end{
+	align-content: flex-end;
+}
+.center{
+	align-content: center;
+}
+.between{
+	align-content: space-between;
+}
+.around{
+	align-content: space-around;
+}
+.container{
+	display: flex;/*Definindo aqui não precisa chamar a classe flex no html*/
+	max-width: 400px;
+	height: 400px;
+	background-color: #7F7F7F; 
+	margin: 3px;
+	font-family: verdana;
+	color: white;
+	border: solid black 1px;
+	border-radius: 8px;
+	list-style: none;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+.item{
+	
+	background-color: green;
+	margin: 3px;
+	width: 80px;
+	height: 40px;
+	padding: 3px;
+	font-size: 1.1em;
+	text-align: center;
+	border-radius: 8px;
+	align-items: center;
+}
+body{
+	background-color: #3E2525;
+	font-weight: bold;
+}

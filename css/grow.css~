@@ -1,0 +1,30 @@
+.grow0{
+	flex-grow: 0;
+}
+.grow1{
+	flex-grow: 1;
+}
+.grow2{
+	flex-grow: 2;
+}
+.item{
+	margin: 5px;
+	background: green;
+	text-align: center;
+	font-size: 1.3em;
+	border-radius: 8px;
+	padding: 3px;
+}
+.container{
+	display: flex;/*Definindo aqui não precisa chamar a classe flex no html*/
+	margin: 0 auto;
+	font-family: verdana;
+	color: white;
+	border: solid black 1px;
+	border-radius: 8px;
+}
+body{
+	margin-top: 20px;
+	background-color: #3E2525;
+	font-weight: bold;
+}
