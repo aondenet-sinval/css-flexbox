@@ -1,6 +1,7 @@
 # Usando aqui css-flexbox básico:
 
 #Usei aqui o módulo nativo do node http, é só digitar node index.js
+
 #Se tiver o node vc já tem também um servidor nativo dele.
 
 **Servidor rodando em http://localhost:8125/**
