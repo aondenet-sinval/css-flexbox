@@ -73,6 +73,11 @@ center, end, baseline, start, center.
 <div class="item">N</div>
 </div>
 </div>
-<p>Bom se você seguiu o roteiro até aqui... Provavelmente deve ter percebido que essa viagem não chegou ao fim da linha.</p>
+
+<h1>Deseja carregar o código usado aqui?</h1>
+<button type="button" onclick="loadSelf()">CLIQUE AQUI</button>
+<div id="self-ok"></div>
+<script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
+
 </body>
 </html>

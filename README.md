@@ -1,12 +1,12 @@
-# Usando aqui css-flexbox básico:
+##Usando aqui css-flexbox básico:
 
-#Usei aqui o módulo nativo do node http, é só digitar node index.js
+##Usei aqui o módulo nativo do node http, é só digitar node index.js
 
-#Se tiver o node vc já tem também um servidor nativo dele.
+##Se tiver o node vc já tem também um servidor nativo dele.
 
 **Servidor rodando em http://localhost:8125/**
 
-#Conceitos principais:
+##Conceitos principais:
 
 **display-flex**
 
@@ -22,7 +22,7 @@
 
 **align-self**
 
-#FONTES:
+##FONTES:
 
 [Digital Inovation One](https://digitalinnovation.one)
 
@@ -33,6 +33,8 @@
 **CSS-STRICK**
 
 [**W3C**](https://www.w3.org/standards/webdesign/htmlcss)
+
+
 
 
 
