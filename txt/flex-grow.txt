@@ -1,0 +1,29 @@
+.grow0{<br>
+	flex-grow: 0;<br>
+}<br>
+.grow1{<br>
+	flex-grow: 1;<br>
+}<br>
+.grow2{<br>
+	flex-grow: 2;<br>
+}<br>
+.item{<br>
+	margin: 5px;<br>
+	background: green;<br>
+	text-align: center;<br>
+	font-size: 1.3em;<br>
+	border-radius: 8px;<br>
+	padding: 3px;<br>
+}<br>
+.container{<br>
+	display: flex;<br>/*Definindo aqui não precisa chamar a classe flex no html*/<br>
+	margin: 0 auto;<br>
+	font-family: verdana;<br>
+	color: white;<br>
+	border: solid black 1px;<br>
+	border-radius: 8px;<br>
+}<br>
+body{<br>
+	background-color: #3E2525;<br>
+	font-weight: bold;<br>
+}<br>

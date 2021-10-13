@@ -1,0 +1,40 @@
+.row{<br>
+	flex-direction: row;<br>
+}<br>
+
+.row-reverse{<br>
+	flex-direction: row-reverse;<br>
+}<br>
+.col{<br>
+	flex-direction: column;<br>
+}<br>
+.col-reverse{<br>
+	flex-direction: column-reverse;<br>
+}<br>
+.container{<br>
+	display: flex;/*Definindo aqui não precisa chamar a classe flex no html*/<br>
+	max-width: 800px;<br>
+	background-color: #7F7F7F;<br> 
+	margin: 3px;<br>
+	font-family: verdana;<br>
+	color: white;<br>
+	border: solid black 1px;<br>
+	border-radius: 8px;<br>
+}<br>
+.wrap{<br>
+	flex-wrap: wrap;<br>
+}<br>
+.item{<br>
+	
+	background-color: green;<br>
+	margin: 3px;<br>
+	padding: 3px;<br>
+	font-size: 1.1em;<br>
+	text-align: center;<br>
+	border-radius: 8px;<br>
+	align-items: center;<br>
+}<br>
+body{<br>
+	background-color: #3E2525;<br>
+	font-weight: bold;<br>
+}<br>

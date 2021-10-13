@@ -1,0 +1,61 @@
+.row{<br>
+	flex-direction: row;<br>
+}<br>
+.row-reverse{<br>
+	flex-direction: row-reverse
+}<br>
+
+
+.column{<br>
+	flex-direction: column;<br>
+}<br>
+.column-reverse{<br>
+	flex-direction: column-reverse;<br>
+}<br>
+
+.auto{<br>
+	align-self: auto;<br>
+}<br>
+.stretch{<br>
+	align-self: stretch;<br>
+}<br>
+.start{<br>
+	align-self: flex-start;<br>
+}<br>
+.end{<br>
+	align-self: flex-end;<br>
+}<br>
+.center{<br>
+	align-self: center;<br>
+}<br>
+.baseline{<br>
+	align-self: baseline;<br>
+}<br>
+.container{<br>
+	display: flex;<br>/*Definindo aqui não precisa chamar a classe flex no html*/<br>
+	max-width: 400px;<br>
+	background-color: #7F7F7F;<br> 
+	margin: 3px;<br>
+	font-family: verdana;<br>
+	color: white;<br>
+	border: solid black 1px;<br>
+	border-radius: 8px;<br>
+	list-style: none;<br>
+	
+	-webkit-flex-flow: row wrap;<br>
+	flex-flow: row wrap;<br>
+}<br>
+.item{<br>
+	
+	background-color: green;<br>
+	margin: 10px;<br>
+	padding: 3px;<br>
+	font-size: 20px;<br>
+	text-align: center;<br>
+	border-radius: 4px;<br>
+	align-items: center;<br>
+}<br>
+body{<br>
+	background-color: #3E2525;<br>
+	font-weight: bold;<br>
+}<br>

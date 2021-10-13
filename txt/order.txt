@@ -1,0 +1,28 @@
+.order1{<br>
+	order: 1;<br>
+}<br>
+.order2{<br>
+	order: 2;<br>
+}<br>
+.order3{<br>
+	order: 3;<br>
+}<br>
+.order4{<br>
+	order: 4;<br>
+}<br>
+.container{<br>
+	max-width: 600px;<br>
+	display: flex;<br>
+	margin: 0 auto;<br>
+	background-color: purple;<br>
+}<br>
+.item{<br>
+	margin: 2px;<br>
+	background: green;<br>
+	text-align: center;<br>
+	font-size: 1.4em;<br>
+}<br>
+body{<br>
+	background-color: #3E2525;<br>
+	font-weight: bold;<br>
+}<br>

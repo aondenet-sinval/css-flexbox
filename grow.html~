@@ -81,7 +81,7 @@ Opção 1: grow 2 ocupou mais espaço que a soma de grow: 0 e grow: 1</p>
 <p class="item">
 Opção 2: grow 2 ocupou menos espaço do que a soma de grow: 1 + grow: 1 + grow: 0</p>
 <p class="item">
-Opção 3: grow 2 ocupou mais espaço que na opção 2</p>
+Opção 3: grow 2 ocupou mais espaço que a soma de grow: 0(duplo) + grow: 1. </p>
 <p class="item">
 Opção 4: concorrendo com dois elementos grow 1, grow 2 cedeu mais espaço.</p>
 <h1>Conforme visto grow: 0; NÃO é expansível.</h1>

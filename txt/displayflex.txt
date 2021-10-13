@@ -1,0 +1,36 @@
+.container{<br>
+	display: flex;<br>
+	/*Definindo aqui não precisa chamar a classe flex no html*/<br>
+	max-width: 200px;<br>
+	background-color: #7F7F7F;<br> 
+	margin: 3px;<br>
+	font-family: verdana;<br>
+	color: white;<br>
+	border: solid black 1px;<br>
+	border-radius: 8px;<br>
+}<br>
+.wrap{<br>
+	flex-wrap: wrap;<br>
+}<br>
+.item{<br>
+	flex: 1;<br>
+	/*Valor 1 expande o conteudo da class item*/<br>
+	background-color: green;<br>
+	margin: 3px;<br>
+	padding: 3px;<br>
+	font-size: 1.1em;<br>
+	text-align: center;<br>
+	max-width: 450px;<br>
+	border-radius: 8px;<br>
+	align-items: center;<br>
+}<br>
+body{<br>
+	background-color: #3E2525;<br>
+	font-weight: bold;<br>
+}<br>
+.row{<br>
+	flex-direction: row;<br>
+}<br>
+.row-reverse{<br>
+	flex-direction: row-reverse
+}<br>

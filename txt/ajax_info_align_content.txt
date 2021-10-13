@@ -1,0 +1,50 @@
+.stretch{<br>
+	-webkit-align-content: stretch;<br>
+	align-content: stretch;<br>
+}<br>
+.start{<br>
+	align-content: flex-start;<br>
+}<br>
+.end{<br>
+	align-content: flex-end;<br>
+}<br>
+.center{<br>
+	align-content: center;<br>
+}<br>
+.between{<br>
+	align-content: space-between;<br>
+}<br>
+.around{<br>
+	align-content: space-around;<br>
+}<br>
+.container{<br>
+	display: flex;<br>/*Definindo aqui não precisa chamar a classe flex no html*/
+	max-width: 400px;<br>
+	height: 400px;<br>
+	background-color: #7F7F7F;<br> 
+	margin: 3px;<br>
+	font-family: verdana;<br>
+	color: white;<br>
+	border: solid black 1px;<br>
+	border-radius: 8px;<br>
+	list-style: none;<br>
+	
+	-webkit-flex-flow: row wrap;<br>
+	flex-flow: row wrap;<br>
+}<br>
+.item{<br>
+	
+	background-color: green;<br>
+	margin: 10px;<br>
+	width: 80px;<br>
+	height: 40px;<br>
+	padding: 3px;<br>
+	font-size: 1.1em;<br>
+	text-align: center;<br>
+	border-radius: 8px;<br>
+	align-items: center;<br>
+}<br>
+body{<br>
+	background-color: #3E2525;<br>
+	font-weight: bold;<br>
+}<br>

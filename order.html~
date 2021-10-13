@@ -11,7 +11,7 @@
 <a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
 <a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
 <a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
-<a class="w3-bar-item w3-button w3-mobile" href="#">ALIGN-CONTENT</a>
+<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
 <a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
 <a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
 <a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>

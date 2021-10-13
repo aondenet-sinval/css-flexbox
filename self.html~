@@ -45,7 +45,7 @@ Essa possibilidade de alterar pode ser feita em linha ou coluna.
 </ul>
 <h1>PROPRIEDADE ALIGN-SELF MULTIPLOS: Alinha o item ao início.</h1>
 <p>
-Definições sequencialmente:<br
+Definições sequencialmente:<br>
 center, end, baseline, start, center.
 </p>
 <div class="container row">

@@ -27,7 +27,7 @@ flex-shrink: 0; não admite redução ao tamanho do item. A flex-basis determina
 flex-shrink: 1; admite redução aos itens para caber no container, a partir de width ou flex-basis.<br>
 Usos: flex: 1 1 200px; (Valores definidos sequencialmente: flex-grow: 1, flex-shrink: 1, flex-basis: 200px).
 </p>
-<h1>Vejamos os exemplos na prática abaixo, numa section com três colunas.</h1>
+<h1>Vejamos os exemplos na prática abaixo, numa section com colunas.</h1>
 <p>Se você diminuir o tamanho da tela, sem shrink, a largura poderia ficar comprometida.</p>
 <section class="flex-container">
 <div class="flex-item">COLUNA UM (01)</div>
@@ -55,6 +55,12 @@ Usos: flex: 1 1 200px; (Valores definidos sequencialmente: flex-grow: 1, flex-sh
 
 <div class="flex-item shrink-2">COLUNA COLUNA QUATRO (sh2)</div>
 </section>
+
+<h1>Deseja carregar o código usado aqui?</h1>
+<button type="button" onclick="loadShrink()">CLIQUE AQUI</button>
+<div id="align-itens"></div>
+<script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
+
 
 </body>
 </html>

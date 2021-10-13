@@ -1,0 +1,26 @@
+.flex-container {<br>
+	max-width: 900px;<br>
+  padding: 0;<br>
+  margin: 0;<br>
+
+  display: flex;<br>
+}<br>
+
+.flex-item {<br>
+  background: purple;<br>;<br>
+  padding: 10px;<br>
+  border: 5px solid red;<br>
+  
+  color: white;<br>
+  font-weight: bold;<br>
+  font-size: 18px;<br>
+  text-align: center;<br>
+}<br>
+
+.shrink-0 {<br> flex: 1 0 300px;<br> }<br>
+.shrink-1 {<br> flex: 1 1 20px;<br> }<br>
+.shrink-2 {<br> flex: 2 2 200px;<br> }<br> 
+body{<br>
+	background-color: #3E2525;<br>
+	font-weight: bold;<br>
+}<br>
