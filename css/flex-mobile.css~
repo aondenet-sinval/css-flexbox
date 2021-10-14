@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +13,7 @@ body {
 .header {
   padding: 60px;
   text-align: center;
-  background: #bfbfbf;
+  background: #1abc9c;
   color: white;
 }
 
@@ -26,6 +27,7 @@ body {
 .navbar a {
   color: white;
   padding: 14px 20px;
+  text-decoration: none;
   text-align: center;
 }
 
@@ -56,6 +58,13 @@ body {
   padding: 20px;
 }
 
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
 /* Footer */
 .footer {
   padding: 20px;
@@ -69,3 +78,4 @@ a{  text-decoration: none;}
     flex-direction: column;
   }
 }
+

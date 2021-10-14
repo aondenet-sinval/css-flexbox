@@ -3,27 +3,42 @@
 <head>
 <meta charset="utf-8">
 <title>Praticando conceitos de CSS Flexbox</title>
-<link rel="stylesheet" href="./css/w3.css">
+<link rel="stylesheet" href="./css/style.css">
 <link href="./css/align-items.css" rel="stylesheet" type="text/css">
 <link href="./css/column.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="w3-bar w3-black">
-<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
-<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
-<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
-<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
-<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
-<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
-<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
 </div>
-<h1>Usando align-items</h1>
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<div class="side">
+
+<h4>+ LINKS</h4>
+Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
+
+
+<h4>Usando align-items</h4>
 <p>
 Razão do uso:<br>
 Essa propriedade ajuda a linhar os itens, no centro, em relação ao eixo vertical.</p>
-<h1>PROPRIEDADE STRETCH: itens crescem igualmente.</h1>
+</div>
+<div class="main">
+<h4>PROPRIEDADE STRETCH: itens crescem igualmente.</h4>
 <ul class="container stretch">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -38,7 +53,7 @@ Essa propriedade ajuda a linhar os itens, no centro, em relação ao eixo vertic
 <li class="item">L</li>
 <li class="item">M</li>
 </ul>
-<h1>PROPRIEDADE START: alinha tudo ao início/top.</h1>
+<h4>PROPRIEDADE START: alinha tudo ao início/top.</h4>
 <ul class="container start">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -48,7 +63,7 @@ Essa propriedade ajuda a linhar os itens, no centro, em relação ao eixo vertic
 <li class="item">F</li>
 <li class="item">G</li>
 </ul>
-<h1>PROPRIEDADE END: alinha tudo ao final/bottom.</h1>
+<h4>PROPRIEDADE END: alinha tudo ao final/bottom.</h4>
 <ul class="container end">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -59,7 +74,7 @@ Essa propriedade ajuda a linhar os itens, no centro, em relação ao eixo vertic
 <li class="item">G</li>
 <li class="item">H</li>
 </ul>
-<h1>PROPRIEDADE BASELINE: alinha de acordo com a linha base.</h1>
+<h4>PROPRIEDADE BASELINE: alinha de acordo com a linha base.</h4>
 <p>LINHA BASE AQUI. COLUNA.</p>
 <ul class="container column baseline">
 <li class="item">A B C</li>
@@ -69,5 +84,15 @@ Essa propriedade ajuda a linhar os itens, no centro, em relação ao eixo vertic
 <li class="item">L</li>
 <li class="item">M</li>
 </ul>
+<h4>Deseja carregar o código usado aqui?</h4>
+<button type="button" onclick="loadAlignContentItens()">CLIQUE AQUI</button>
+<div id="align-itens"></div>
+<script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
 </body>
 </html>

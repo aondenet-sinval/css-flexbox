@@ -3,22 +3,30 @@
 <head>
 <meta charset="utf-8">
 <title>Praticando conceitos de CSS Flexbox</title>
-<link rel="stylesheet" href="./css/w3.css">
+<link rel="stylesheet" href="./css/style.css">
 <link href="./css/shrink.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="w3-bar w3-black">
-<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
-<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
-<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
-<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
-<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
-<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
-<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
 </div>
-<p class="container">
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<div class="side">
+<p>
 Vamos conversar... Para ficarmos interessados precisamos entender o que o shrink pode fazer por nós. Beleza?<br>
 Ele pode:<br>
 Ajudar-nos a limitar o tamanho mínimo do item.<br>
@@ -27,7 +35,10 @@ flex-shrink: 0; não admite redução ao tamanho do item. A flex-basis determina
 flex-shrink: 1; admite redução aos itens para caber no container, a partir de width ou flex-basis.<br>
 Usos: flex: 1 1 200px; (Valores definidos sequencialmente: flex-grow: 1, flex-shrink: 1, flex-basis: 200px).
 </p>
-<h1>Vejamos os exemplos na prática abaixo, numa section com colunas.</h1>
+</div>
+
+<div class="main">
+<h4>Vejamos os exemplos na prática abaixo, numa section com colunas.</h4>
 <p>Se você diminuir o tamanho da tela, sem shrink, a largura poderia ficar comprometida.</p>
 <section class="flex-container">
 <div class="flex-item">COLUNA UM (01)</div>
@@ -40,27 +51,31 @@ Usos: flex: 1 1 200px; (Valores definidos sequencialmente: flex-grow: 1, flex-sh
 <p>Se você diminuir o tamanho da tela, com shrink, a largura não ficará comprometida.</p>
 <section class="flex-container">
 <div class="flex-item shrink-2">COLUNA UM (sh2)</div>
-<div class="flex-item shrink-1">COLUNA DOIS (sh1)</div>
+<div class="flex-item shrink-1">COLUNA DOIS (sh4)</div>
 <div class="flex-item shrink-0">COLUNA TRÊS (sh0)</div>
 </section>
-<h1>Vejamos novamente os exemplos na prática abaixo, numa section com três colunas.</h1>
+<h4>Vejamos novamente os exemplos na prática abaixo, numa section com três colunas.</h4>
 <p>Se você diminuir o tamanho da tela, com shrink, a largura não ficaria comprometida,<br>
  prejudicando a interface ao usuário. Mas é preciso um bom cálculo. Beleza?</p>
 <section class="flex-container">
-<div class="flex-item shrink-1">COLUNA UM (01)-COLUNA UM (sh1)</div>
+<div class="flex-item shrink-1">COLUNA UM (01)-COLUNA UM (sh4)</div>
 
 <div class="flex-item shrink-2">COLUNA COLUNA DOIS (sh2)</div>
 
-<div class="flex-item shrink-1">COLUNA TRÊS (sh1)</div>
+<div class="flex-item shrink-1">COLUNA TRÊS (sh4)</div>
 
 <div class="flex-item shrink-2">COLUNA COLUNA QUATRO (sh2)</div>
 </section>
 
-<h1>Deseja carregar o código usado aqui?</h1>
+<h4>Deseja carregar o código usado aqui?</h4>
 <button type="button" onclick="loadShrink()">CLIQUE AQUI</button>
-<div id="align-itens"></div>
+<div id="shrink-ok"></div>
 <script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
-
-
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
 </body>
 </html>

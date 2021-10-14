@@ -5,40 +5,66 @@
 <title>Praticando conceitos de CSS Flexbox</title>
 <link rel="stylesheet" href="./css/w3.css">
 <link href="./css/displayflex.css" rel="stylesheet" type="text/css">
-<link href="./css/row.css" rel="stylesheet" type="text/css">
+<link href="./css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="w3-bar w3-black">
-<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
-<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
-<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
-<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
-<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
-<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
-<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
 </div>
-<h1>Display block;</h1>
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<div class="side">
+
+<h1>+ LINKS</h1>
+Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
+Mobile com flexbox <a href="flex-mobile.html">CLIQUE AQUI</a>.
+</div>
+
+<div class="main">
+<h3>Display block;</h3>
 <section class="container">
 <div class="item">ITEM1 ITEM1 ITEM1</div>
 <div class="item">ITEM2</div>
 <div class="item">ITEM3</div>
 <div class="item">ITEM4</div>
 </section>
-<h1>Display flex row sem wrap</h1>
+<h3>Display flex row sem wrap</h3>
 <section class="container row">
 <div class="item flex">ITEM1</div>
 <div class="item">ITEM2</div>
 <div class="item">ITEM3</div>
 <div class="item">ITEM4</div>
 </section>
-<h1>Display flex row com wrap</h1>
+<h3>Display flex row com wrap</h3>
 <section class="container row wrap">
 <div class="item">ITEM1 ITEM1 ITEM1 ITEM1</div>
 <div class="item">ITEM2</div>
 <div class="item">ITEM3</div>
 <div class="item">ITEM4</div>
 </section>
+
+<h3>Deseja carregar o código usado aqui?</h3>
+<button type="button" onclick="loadDisplayFlex()">CLIQUE AQUI</button>
+<div id="displayflex"></div>
+<script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
 </body>
 </html>

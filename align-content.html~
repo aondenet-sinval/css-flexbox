@@ -3,30 +3,40 @@
 <head>
 <meta charset="utf-8">
 <title>Praticando conceitos de CSS Flexbox</title>
-<link rel="stylesheet" href="./css/w3.css">
+<link rel="stylesheet" href="./css/style.css">
 <link href="./css/align-content.css" rel="stylesheet" type="text/css">
-<link href="./css/row.css" rel="stylesheet" type="text/css">
-<!--<script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>-->
 </head>
 <body>
-<div class="w3-bar w3-black">
-<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
-<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
-<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
-<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
-<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
-<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
-<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
 </div>
-<h1>A propriedade align-content: que só é visivel em container maior (verticalmente) que, a soma das linhas.</h1>
-<p>Sendo assim precisamos definir um container maior.<br>
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<p class="side">
+<h4>+ LINKS</h4>
+Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
+A propriedade align-content: que só é visivel em container maior (verticalmente) que, a soma das linhas.
+Sendo assim precisamos definir um container maior.<br>
 Defini uma altura de 600px.<br>
 Precisamos aplicar o wrap em cada linha.<br>
 Todas as definições são em relação ao container.
 </p>
-<h1>PROPRIEDADE STRETCH: itens crescem igualmente.</h1>
+<div class="main">
+
+<h3>PROPRIEDADE STRETCH: itens crescem igualmente.</h3>
 <ul class="container stretch">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -41,7 +51,7 @@ Todas as definições são em relação ao container.
 <li class="item">L</li>
 <li class="item">M</li>
 </ul>
-<h1>PROPRIEDADE START: alinha tudo ao início/top.</h1>
+<h3>PROPRIEDADE START: alinha tudo ao início/top.</h3>
 <ul class="container start">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -56,7 +66,7 @@ Todas as definições são em relação ao container.
 <li class="item">L</li>
 <li class="item">M</li>
 </ul>
-<h1>PROPRIEDADE END: alinha tudo ao final/bottom.</h1>
+<h3>PROPRIEDADE END: alinha tudo ao final/bottom.</h3>
 <ul class="container end">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -71,7 +81,7 @@ Todas as definições são em relação ao container.
 <li class="item">L</li>
 <li class="item">M</li>
 </ul>
-<h1>PROPRIEDADE CENTER: centraliza em relação ao eixo vertical.</h1>
+<h3>PROPRIEDADE CENTER: centraliza em relação ao eixo vertical.</h3>
 <ul class="container center">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -86,7 +96,7 @@ Todas as definições são em relação ao container.
 <li class="item">L</li>
 <li class="item">M</li>
 </ul>
-<h1>PROPRIEDADE SPACE-BETWEEN: a primeira grudada ao top e a segunda ao bottom, entre as outras equaliza o espaçamento.</h1>
+<h3>PROPRIEDADE SPACE-BETWEEN: a primeira grudada ao top e a segunda ao bottom, entre as outras equaliza o espaçamento.</h3>
 <ul class="container between">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -101,19 +111,16 @@ Todas as definições são em relação ao container.
 <li class="item">L</li>
 <li class="item">M</li>
 </ul>
-<h1>Deseja carregar o código usado aqui?</h1>
+<h3>Deseja carregar o código usado aqui?</h3>
 <button type="button" onclick="loadAlignContent()">CLIQUE AQUI</button>
 <div id="align-content"></div>
-<script>
-function loadAlignContent() {
-  const xhttp = new XMLHttpRequest();
-  xhttp.onload = function() {
-    document.getElementById("align-content").innerHTML = this.responseText;
-  }
-  xhttp.open("GET", "./xml/index.xml");
-  xhttp.send();
-}
-</script>
+<script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
 
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
 </body>
 </html>

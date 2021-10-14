@@ -33,8 +33,7 @@
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
 }
-.item{
-	
+.item{	
 	background-color: green;
 	margin: 10px;
 	width: 80px;
@@ -44,8 +43,4 @@
 	text-align: center;
 	border-radius: 8px;
 	align-items: center;
-}
-body{
-	background-color: #3E2525;
-	font-weight: bold;
 }

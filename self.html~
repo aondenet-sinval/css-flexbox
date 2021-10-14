@@ -3,32 +3,45 @@
 <head>
 <meta charset="utf-8">
 <title>Praticando conceitos de CSS Flexbox</title>
-<link rel="stylesheet" href="./css/w3.css">
+<link rel="stylesheet" href="./css/style.css">
 <link href="./css/self.css" rel="stylesheet" type="text/css">
 <link href="./css/column.css" rel="stylesheet" type="text/css">
-<link href="./css/row.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="w3-bar w3-black">
-<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
-<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
-<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
-<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
-<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
-<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
-<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
 </div>
-<p class="container">
-<h1>Agora vamos aos align-self...</h1>
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<div class="side">
+<h1>+ LINKS</h1>
+Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
+Mobile com flexbox <a href="flex-mobile.html">CLIQUE AQUI</a>.
+<h4>Agora vamos aos align-self...</h4>
 <p>
 Por que usar align-self?<br>
 Quando precisamos definir o alinhamento de um único item,<br>
 que esteja em um container que já tenha outa predefinição.<br>
 Essa possibilidade de alterar pode ser feita em linha ou coluna.
 </p>
-<h1>PROPRIEDADE ALIGN-SELF AUTO: auto se submete ao já definido no container.</h1>
+
+</div>
+
+<div class="main">
+<h4>PROPRIEDADE ALIGN-SELF AUTO: auto se submete ao já definido no container.</h4>
 <ul class="container stretch">
 <li class="item">A</li>
 <li class="item">B</li>
@@ -43,7 +56,7 @@ Essa possibilidade de alterar pode ser feita em linha ou coluna.
 <li class="item">L</li>
 <li class="item">M</li>
 </ul>
-<h1>PROPRIEDADE ALIGN-SELF MULTIPLOS: Alinha o item ao início.</h1>
+<h4>PROPRIEDADE ALIGN-SELF MULTIPLOS: Alinha o item ao início.</h4>
 <p>
 Definições sequencialmente:<br>
 center, end, baseline, start, center.
@@ -74,10 +87,15 @@ center, end, baseline, start, center.
 </div>
 </div>
 
-<h1>Deseja carregar o código usado aqui?</h1>
+<h4>Deseja carregar o código usado aqui?</h4>
 <button type="button" onclick="loadSelf()">CLIQUE AQUI</button>
 <div id="self-ok"></div>
 <script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
-
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
 </body>
 </html>

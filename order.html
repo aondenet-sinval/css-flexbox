@@ -3,21 +3,35 @@
 <head>
 <meta charset="utf-8">
 <title>Praticando conceitos de CSS Flexbox</title>
-<link rel="stylesheet" href="./css/w3.css">
+<link rel="stylesheet" href="./css/style.css">
 <link href="./css/order.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="w3-bar w3-black">
-<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
-<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
-<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
-<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
-<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
-<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
-<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
 </div>
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<div class="side">
+
+<h1>+ LINKS</h1>
+Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
+</div>
+
+<div class="main">
 <p class="container">
 Vamos conversar... Para ficarmos interessados precisamos entender o que o order pode fazer por nós. Beleza?<br>
 Ele pode:<br>
@@ -26,7 +40,7 @@ Exemplos:<br>
 Se você definir itens com order: 1; order: 4; order: 3 e order: 2.<br>
 Estará garantindo assim a prioridade na ordenação.
 </p>
-<h1>Vejamos na prática abaixo, numa section com quatro colunas.</h1>
+<h4>Vejamos na prática abaixo, numa section com quatro colunas.</h4>
 <p>Se você definir order4, order3, order2, order1, sendo esses os valores definidos, você garantiu.<br>
 O item order1, mesmo sendo escrito por último assumirá a prioridade  em relação aos demais Beleza?</p>
 <section class="container">
@@ -36,10 +50,15 @@ O item order1, mesmo sendo escrito por último assumirá a prioridade  em relaç
 <div class="item order1">ORDER 4</div>
 </section>
 
-<h1>Deseja carregar o código usado aqui?</h1>
+<h4>Deseja carregar o código usado aqui?</h4>
 <button type="button" onclick="loadOrder()">CLIQUE AQUI</button>
 <div id="order-ok"></div>
 <script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
-
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
 </body>
 </html>

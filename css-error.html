@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<link rel="stylesheet" href="./css/style.css">
+<link href="./css/css-error.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
+</div>
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<div class="side">
+
+<h1>+ LINKS</h1>
+Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
+</div>
+
+<div class="main">
+<div class="container row">
+<div class="column item">
+<h4>Folha de estilos não funcionam:</h4> 
+Quando criar duas regras, para ser aplicadas ao mesmo elemento elas vão entrar em conflito. A última é a que vai ser aplicada.
+Se houver uma classe sendo aplicada ao elemento pai ela ganhará na concorrência, desde que o concorrente não seja uma tag.
+</div>
+<div class="column item">
+<h4>Folha de estilos não funcionam:</h4> 
+Temos um bom controle modificando o elemento pela classe. Controlar o css pelas tags pode ser oportuno, mas a classe tem menos poder.
+Só que, para controlar pela tag precisaria escrever mais código.
+</div>
+</div>
+<div class="container row">
+<div class="column item">
+<h4>Temos aqui uma lista dentro de outra</h4> 
+<ul class="lista-a">
+	<li>primeira lista</li>
+	<li>primeira lista</li>
+	<li>
+	       <ul class="lista-b">
+	             <li>segunda lista</li>
+	             <li>segunda lista</li>
+	             <li>
+	                     <ul class="lista-c">
+	                              
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                     </ul>
+	             </li>
+          </ul>
+	</li>	
+	<li>primeira lista</li>
+	<li>primeira lista</li>
+</ul>
+<p>
+Usando classe temos maior controle que usando a tag ul/li.
+</p>
+</div>
+<div class="column item">
+<h4>Folha de estilos não funcionam:</h4> 
+<div class="lista-2">
+
+<ul>
+	<li>primeira lista</li>
+	<li>primeira lista</li>
+	<li>
+	       <ul>
+	             <li>segunda lista</li>
+	             <li>segunda lista</li>
+	             <li>
+	                     <ul>
+	                              
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                     </ul>
+	             </li>
+          </ul>
+	</li>	
+	<li>primeira lista</li>
+	<li>primeira lista</li>
+</ul>
+Quando criar duas regras, para ser aplicadas ao mesmo elemento elas vão entrar em conflito. A última é a que vai ser aplicada.
+Aqui precisei criar uma nova classe por que ao trabalhar com tags ela sobrescreveria a classe. A tag ul venceu. 
+Mas se usasse pela ul li o efeito não seria genérico como ao usar classe. A ul é mais externa que li.
+</div>
+</div>
+</div>
+<div class="container row">
+<div class="column item">
+<h4>Fontes que não são aplicadas:</h4> 
+Quando criar duas regras, para ser aplicadas ao mesmo elemento elas vão entrar em conflito. A última é a que vai ser aplicada.
+Se houver uma classe sendo aplicada ao elemento pai ela ganhará na concorrência, desde que o concorrente não seja uma tag.
+<ul class="font-lista-a">
+	<li>primeira lista</li>
+	<li>primeira lista</li>
+	<li>
+	       <ul class="font-lista-b">
+	             <li>segunda lista</li>
+	             <li>segunda lista</li>
+	             <li>
+	                     <ul class="font-lista-c">
+	                              
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                     </ul>
+	             </li>
+          </ul>
+	</li>	
+	<li>primeira lista</li>
+	<li>primeira lista</li>
+</ul>
+</div>
+<div class="column item">
+<h4>Fontes não funcionam:</h4> 
+Temos um bom controle modificando o elemento pela classe. Controlar o css pelas tags pode ser oportuno, a classe tem menos poder.
+Só que, para controlar pela tag precisaria escrever mais código, se fosse fazer um tratamento dentro de um sub-elemento.
+<div class="font-lista-2">
+<ul>
+	<li>primeira lista</li>
+	<li>primeira lista</li>
+	<li>
+	       <ul>
+	             <li>segunda lista</li>
+	             <li>segunda lista</li>
+	             <li>
+	                     <ul>
+	                              
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                              <li>terceira lista</li>
+	                     </ul>
+	             </li>
+          </ul>
+	</li>	
+	<li>primeira lista</li>
+	<li>primeira lista</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="container row">
+<div class="column item">
+<h4>Brincando com seletores</h4>
+<cite>
+<blockquote>
+<p>
+Quando criar duas regras, para ser aplicadas ao mesmo elemento elas vão entrar em conflito. A última é a que vai ser aplicada.
+Se houver uma classe sendo aplicada ao elemento pai ela ganhará na concorrência, desde que o concorrente não seja uma tag.
+</p>
+</blockquote>
+</cite>
+</div>
+<div class="column item">
+<h4>Brincado com seletores II:</h4> 
+<article>
+<p>
+Pseudoelementos, selecionam uma determinada parte de um elemento em vez do próprio elemento. 
+</p>
+Aplicando modificações com pseudo classes notamos a grande facilidade ao determinar formatação mais específica. 
+</article>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
+</body>
+</html>

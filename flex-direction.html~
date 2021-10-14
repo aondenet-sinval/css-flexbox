@@ -3,23 +3,38 @@
 <head>
 <meta charset="utf-8">
 <title>Praticando conceitos de CSS Flexbox</title>
-<link rel="stylesheet" href="./css/w3.css">
+<link rel="stylesheet" href="./css/style.css">
 <link href="./css/flex-direction.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="w3-bar w3-black">
-<a class="w3-bar-item w3-button w3-mobile" href="index.html">HOME</a>
-<a class="w3-bar-item w3-button w3-mobile" href="displayFlex.html">DISPLAY FLEX</a>
-<a class="w3-bar-item w3-button w3-mobile" href="flex-direction.html">FLEX-DIRECTION</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align-content.html">ALIGN-CONTENT</a>
-<a class="w3-bar-item w3-button w3-mobile" href="align.html">ALIGN-ITENS</a>
-<a class="w3-bar-item w3-button w3-mobile" href="grow.html">FLEX-GROW</a>
-<a class="w3-bar-item w3-button w3-mobile" href="shrink.html">FLEX-SHRINK</a>
-<a class="w3-bar-item w3-button w3-mobile" href="order.html">FLEX-ORDER</a>
-<a class="w3-bar-item w3-button w3-mobile" href="self.html">ALIGN-SELF</a>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
+</div>
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<div class="side">
+
+<h3>+ LINKS</h3>
+Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
+
 </div>
 
-<h1>PROPRIEDADE ROW: itens em linha.</h1>
+<div class="main">
+
+<h3>PROPRIEDADE ROW: itens em linha.</h3>
 <div class="container">
 <section class="container row">
 <div class="item">ITEM1 - COLUMN</div>
@@ -28,7 +43,7 @@
 <div class="item">ITEM4 - COLUMN</div>
 </section>
 </div>
-<h1>PROPRIEDADE ROW-REVERSE: itens em linha.</h1>
+<h3>PROPRIEDADE ROW-REVERSE: itens em linha.</h3>
 <div class="container">
 <section class="container row-reverse">
 <div class="item">ITEM1 - COLUMN</div>
@@ -37,7 +52,7 @@
 <div class="item">ITEM4 - COLUMN</div>
 </section>
 </div>
-<h1>PROPRIEDADE COLUMN: itens em coluna.</h1>
+<h3>PROPRIEDADE COLUMN: itens em coluna.</h3>
 <div class="container">
 <section class="container col">
 <div class="item">ITEM1 - COLUMN</div>
@@ -64,7 +79,7 @@
 <div class="item">ITEM4 - COLUMN</div>
 </section>
 </div>
-<h1>PROPRIEDADE COLUMN-REVERSE: itens em coluna reversa.</h1>
+<h3>PROPRIEDADE COLUMN-REVERSE: itens em coluna reversa.</h3>
 <div class="container">
 <section class="container col-reverse">
 <div class="item">ITEM1 - COLUMN</div>
@@ -91,7 +106,7 @@
 <div class="item">ITEM4 - COLUMN</div>
 </section>
 </div>
-<h1>VAMOS MISTURAR AQUI AS QUATRO OPÇÕES:</h1>
+<h3>VAMOS MISTURAR AQUI AS QUATRO OPÇÕES:</h3>
 <p>
 <div class="container wrap">
 <section class="container row">
@@ -120,11 +135,15 @@
 </section>
 </div>
 
-<h1>Deseja carregar o código usado aqui?</h1>
+<h3>Deseja carregar o código usado aqui?</h3>
 <button type="button" onclick="loadFlexDirection()">CLIQUE AQUI</button>
-<div id="align-itens"></div>
+<div id="flex-direction"></div>
 <script type="text/javascript" src="./script/ajaxObjectTxt.js" ></script>
-
-
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
 </body>
 </html>

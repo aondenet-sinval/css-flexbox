@@ -1,0 +1,111 @@
+.shrink-0 { flex: 1 0 400px; }
+.shrink-1 { flex: 1 1 20px; }
+.shrink-2 { flex: 2 2 200px; } 
+.row{
+	flex-direction: row;
+}
+.row-reverse{
+	flex-direction: row-reverse
+}
+.column{
+	flex-direction: column;
+}
+.column-reverse{
+	flex-direction: column-reverse;
+}
+.container{
+	display: flex;/*Definindo aqui não precisa chamar a classe flex no html*/
+	background-color: #7F7F7F; 
+	margin: 3px;
+	font-family: verdana;
+	color: white;
+	border: solid black 1px;
+	border-radius: 8px;
+}
+.item{
+	flex: 1;/*Valor 1 expande o conteudo da class item*/
+	background-color: green;
+	margin: 3px;
+	padding: 3px;
+	font-size: 1.1em;
+	text-align: center;
+	border-radius: 8px;
+	align-items: center;
+}
+body{
+	background-color: #3E2525;
+}
+.lista-a{
+	background-color: blue;;
+	list-style: none;
+	font-size: 30px;
+}
+.lista-b{
+	background-color: red;
+	list-style: none;
+	font-size: 30px;
+}
+
+.lista-c{
+	background-color: purple;
+	list-style: none;
+	font-size: 30px;
+}
+.lista-2 ul{
+	background-color: purple;
+	list-style: none;
+	font-size: 30px;
+}
+.lista-2 ul ul{
+	background-color: red;
+	list-style: none;
+	font-size: 30px;
+}
+.lista-2 ul ul ul{
+	background-color: blue;
+	list-style: none;
+	font-size: 30px;
+}
+/*
+Vamos alterar aqui as fontes da lista somente o tipo delas.
+*/
+.font-lista-a{
+	font-family: Arial Narrow, sans-serif;
+	list-style: none;
+}
+.font-lista-b{
+	font-family: Freemono, monospace;
+	list-style: none;
+}
+
+.font-lista-c{
+	font-family: URW Chancery L, cursive;
+	list-style: none;
+}
+.font-lista-2 ul{
+	font-family: Arial Narrow, sans-serif;
+	list-style: none;	
+}
+.font-lista-2 ul ul{
+	font-family: Freemono, monospace;
+}
+.font-lista-2 ul ul ul{
+	font-family: URW Chancery L, cursive;
+}
+/*
+
+Usando pseudo classes. Formatando elementos com uma linha
+*/
+p::first-line{
+	background-color: blue;
+}
+/*
+Formatando somente p dentro de article
+*/
+article > p{
+	background-color: palegreen;
+	color: blueviolet;
+}
+blockquote > p{
+	font-family: Freemono, monospace;
+}
