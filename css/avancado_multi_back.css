@@ -1,0 +1,7 @@
+#imgmulti {
+  background-image: url(../img/boat.png), url(../img/paraqueda.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+  max-width: 602px;
+  height: 401px;
+}

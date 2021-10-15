@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+<link href="./css/avancado_rounded_borders.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Header -->
+<div class="header">
+  <h1>Sinval Gomes... </h1>
+  <p>Development <b>flexible</b> layout with flexbox.</p>
+</div>
+<!-- Navigation Bar -->
+<div class="navbar">
+<a href="index.html">HOME</a>
+<a href="displayFlex.html">DISPLAY FLEX</a>
+<a href="flex-direction.html">FLEX-DIRECTION</a>
+<a href="align-content.html">ALIGN-CONTENT</a>
+<a href="align.html">ALIGN-ITENS</a>
+<a href="grow.html">FLEX-GROW</a>
+<a href="shrink.html">FLEX-SHRINK</a>
+<a href="order.html">FLEX-ORDER</a>
+<a href="self.html">ALIGN-SELF</a>
+</div>
+<div class="row">
+<div class="side">
+
+<h1>+ LINKS</h1>
+Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
+Erros de CSS <a href="avancado_rounded_borders.html">CLIQUE AQUI</a>.<br>
+</div>
+
+<div class="main">
+<h3>Cantos arredondados:</h3>
+	<p>
+		Usada com a propriedade CSS border radius.
+		Podemos definir cantos de quatro formas.
+		Então vamos definir sequencialmente com diferentes backgrounds:  
+	</p>
+		<div class="row">
+				<div id="borders1"></div>
+				<div id="borders2"></div>
+				<div id="borders3"></div>
+		</div>
+	<p>
+		A propriedade border-radius pode ser distribuída em um a quatro valores.<br>
+		Exemplo 1: border-radius: 10px 40px 80px 120px;<br>
+		Exemplo 2: border-radius: 10px 40px 80px;<br>
+		Exemplo 1: border-radius: 10px 40px;<br>
+		Exemplo 1: border-radius: 10px;<br>
+		O primeiro exemplo afetará os quatro cantos com valores individuais<br>
+		Os demais subsequentemente afetará três, dois quatro.<br>
+		Veja abaixo:			  
+	</p>
+		<div class="row">
+				<div id="borders4"></div>
+				<div id="borders5"></div>
+				<div id="borders6"></div>
+				<div id="borders7"></div>
+		</div>		
+   <p>
+      Podemos aplicar uma propriedade especificando a borda.<br>
+            <table>
+				       <tr>
+								<td>border-radius: </td>
+								<td>Uma propriedade abreviada para definir todas as quatro propriedades border - * - * - radius.</td>
+						 </tr>
+						 <tr>
+								<td>border-top-left-radius:</td>
+								<td>Define a forma da borda do canto superior esquerdo.</td>
+						 </tr>
+						 <tr>
+								<td>border-top-right-radius: </td>
+								<td>Define a forma da borda do canto superior direito.</td>
+						 </tr>
+						 <tr>
+								<td>border-bottom-right-radius:</td>
+								<td>Define a forma da borda do canto inferior direito.</td>
+						 </tr>
+						 <tr>
+								<td>border-bottom-left-radius:</td>
+								<td>Define a forma da borda do canto inferior esquerdo.</td>
+						 </tr>
+				 </table>
+   </p>
+   <p>
+			Também podemos usar imagens como borda:<br>
+			<div id="educationalimg">
+					Estou usando borda com imagem aqui...			
+			</div>   
+   </p>
+   <p>
+			Também podemos usar imagens como borda:<br>
+			<div id="stic_educational_img">
+					Estou usando borda com a mesma imagem esticada aqui...			
+			</div> 
+			Veja abaixo as propriedades de CSS border-image: 
+					<table>
+						  <tr>
+								  <td>
+									  border-image:
+								  </td>
+								  <td>
+									  Uma propriedade abreviada para definir todas as propriedades border-image- *
+								  </td>
+						  </tr>
+						  <tr>  
+						        <td>
+							        border-image-source:
+						        </td>
+						        <td>
+							        Especifica o caminho para a imagem a ser usada como borda
+						        </td>
+						  </tr>
+						  <tr>
+						        <td>
+							        border-image-slice:
+						        </td>
+						        <td>
+							        Especifica como cortar a imagem da borda
+						        </td>
+						  </tr>
+						  <tr>
+						        <td>
+							        border-image-width:
+						        </td>
+						        <td>
+							        Especifica as larguras da imagem da borda
+						        </td>
+						  </tr>
+						  <tr>
+								  <td>
+									  border-image-outset:
+								  </td>
+								  <td>
+									  Especifica a quantidade em que a área da imagem da borda se estende além da caixa da borda
+								  </td>
+						  </tr>
+						  <tr>
+								  <td>
+									  border-image-repeat:
+								  </td>
+								  <td>
+									  Especifica se a imagem da borda deve ser repetida, arredondada ou esticada
+								  </td>
+						  </tr>
+					</table> 
+   </p>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+</div>
+</body>
+</html>
