@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+  <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+  <html lang="pt-br" xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title><data:blog.pageTitle/></title>
+  <!-- <link href='https://aondenet-sinval.github.io/portfolio/css/bloggers/aondenet.css' rel='stylesheet'/> -->
+  <link href='https://aondenet-sinval.github.io/portfolio/Imagens/logoaondenet.ico' rel='shortcut icon'/>
+<!-- w3.css -->
+<link href='https://www.w3schools.com/w3css/4/w3.css' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+<script src='https://kit.fontawesome.com/a076d05399.js'/>
+<!-- End w3.css -->
+    <b:skin><![CDATA[
+* {
+  box-sizing: border-box;
+}
+/*Folha de estilos insira aqui*/
+    ]]></b:skin>
+  </head>
+  <body>
+
+<!-- Layout phone -->
+		  <div clas='w3-bar' id='mobile-bar'>  
+		  <b:section class='w3-bar-block w3-hide w3-hide-large w3-hide-medium' id='crosscolPhone' maxwidgets='1' showaddelement='yes'>
+		  <b:widget id='NavBarPhone' title='Navigation Bar' type='NewsBar' locked='false' mobile='yes'/>		
+		  </b:section>
+		  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+<!-- Layout Tablet -->
+		  <b:section class='tabs navbar w3-hide-small w3-hide-large' id='crosscolTablet' maxwidgets='1' showaddelement='yes'>
+		  <b:widget id='NavBarTablet' title='Navigation Bar' type='NewsBar' locked='false' mobile='yes'/>			
+		  </b:section>
+<!-- Layout desktop -->
+		  <b:section class='tabs navbar w3-hide-small w3-hide-medium' id='crosscolDesktop' maxwidgets='1' showaddelement='yes'>
+		  <b:widget id='NavBarDesktop' title='Navigation Bar Desktop' type='NewsBar' locked='false' mobile='no'/>			
+		  </b:section>
+		  <b:section id='header' class='header' maxwidgets='1' showaddelement='no'>
+					<b:widget id='Header1' locked='true' title=' ' type='Header' mobile='yes'></b:widget>
+		  </b:section>
+<!--	Main	section start  -->
+			<div class='row'>
+        <b:section id='main-left' class='main-left col-s-12 col-m-8 col-g-9' maxwidgets='4' showaddelement='yes'>
+        <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' mobile='yes'/>
+        </b:section>
+         
+        <b:section id='sidebar' class='sidebar  col-s-12 col-m-4 col-g-3' maxwidgets='' showaddelement='yes'>
+		        <b:widget id='CustomSearch1' title='Search' type='CustomSearch' locked='false'/>
+		        <b:widget id='FollowByEmail1' title='Follow By Email' type='FollowByEmail' locked='false' />
+		        <b:widget id='PopularPosts1' locked='false' title='Popular On Relatemein' type='PopularPosts'/>
+		        <b:widget id='Label1' type='Label' locked='false' />
+        </b:section>
+			</div>
+<!--	Main	section end  -->
+			<!-- start row Columns Footer -->
+			<div id='columns-footer'>
+			<!--	Column-Left-Footer	section start  -->
+			<div class='column-footer-left '>
+        <b:section id='column-left-footer' class='col-s-12 col-m-6 col-g-6' showaddelement='yes' maxwidgets='2'>
+		   </b:section>			
+			</div>
+			<!--	Column-Left-Footer	section end  -->
+			
+			<!--	Column-Right-Footer 	section start  -->
+			<div class='column-footer-right'>
+        <b:section id='column-right-footer' class=' col-s-12 col-m-6 col-g-6' showaddelement='yes' maxwidgets='2'>
+		   </b:section>			
+			</div>
+			<!--	Column-Right-Footer	section end  -->		
+			
+			</div> 
+			<!-- end row Columns Footer -->
+        <b:section id='footer' class='footer' showaddelement='yes'>
+		   </b:section>
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("crosscolPhone");
+		  if (x.className.indexOf("w3-show") == -1) {
+		    x.className += " w3-show";
+		  } else { 
+		    x.className = x.className.replace(" w3-show", "");
+		  }
+		}
+		</script>
+  </body>
+  </html>

@@ -1,40 +1,8 @@
-##Usando aqui css-flexbox básico:
+##Usando aqui css-grid view e melhorando o código com sass:
 
-##Usei aqui o módulo nativo do node http, é só digitar node index.js
+**Desenvolvendo com CSS e aplicando: Grid View e sass**
 
-##Se tiver o node vc já tem também um servidor nativo dele.
-
-**Servidor rodando em http://localhost:8125/**
-
-##Conceitos principais:
-
-**display-flex**
-
-**flex-direction**
-
-**align-content**
-
-**align-itens**
-
-**flex-shrink**
-
-**flex-order**
-
-**align-self**
-
-##FONTES:
-
-[Digital Inovation One](https://digitalinnovation.one)
-
-**Origamid**
-
-**MDN**
-
-**CSS-STRICK**
-
-[**W3C**](https://www.w3.org/standards/webdesign/htmlcss)
-
-**Acesse esse trabalho se não quiser baixar em [sinvalflexbox.w3spaces.com](https://sinvalflexbox.w3spaces.com/)**
+**Acesse direto no browser: [Aplicando conceitos de sass e grid view](https://aondenet-sinval.github.io/portfolio/grid/index.html)**
 
 
 
